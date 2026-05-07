@@ -36,6 +36,13 @@
 - 🔧 创建智能体执行计划和工作流
 - 🧹 实现技术债务自动清理机制
 - ⚙️ 为智能体优化开发环境
+- 🏭 用真实项目倒逼方法论进化，把“能跑原型”改造成“可持续系统”
+
+### 生产实践入口（按需读取）
+- **Web 项目改造**：读 `references/web-project-hardening.md`
+- **Skill 项目改造**：读 `references/skill-project-hardening.md`
+- **失败模式库**：读 `references/failure-patterns.md`
+- **执行计划模板**：用 `execution-plan.template.md`
 
 ---
 
@@ -344,6 +351,14 @@ your-repo/
 - 自动发起针对性重构
 - 代码质量等级追踪
 
+### 第四步：用真实项目反哺 Skill
+
+不要只升级概念，要把真实项目改造经验沉淀回 Skill 仓库：
+- 新增 playbook（Web / Skill / Agent 场景）
+- 新增失败模式库
+- 新增 consistency / smoke / health 模板说明
+- 升级执行计划模板，使其更像生产改造作业单
+
 ---
 
 ## 📝 关键语录
@@ -363,9 +378,21 @@ your-repo/
 - [x] 提供零信任架构的具体配置示例
 - [x] 编写架构原则和品味不变量
 - [x] 建立熵管理和垃圾回收机制
+- [x] 添加执行计划系统模板
+- [x] 新增生产实践 playbook（Web / Skill）
+- [x] 新增失败模式库
 - [ ] 实现自定义 linter 强制执行不变量
 - [ ] 构建自动化垃圾回收脚本
-- [ ] 添加执行计划系统模板
+- [ ] 补 health check / smoke test 模板说明
+
+---
+
+## 🔗 生产实践附录
+
+- `references/web-project-hardening.md`：Web 项目第一轮硬化剧本
+- `references/skill-project-hardening.md`：Skill 仓库硬化剧本
+- `references/failure-patterns.md`：从真实项目抽取的失败模式库
+- `execution-plan.template.md`：生产改造型执行计划模板
 
 ---
 
