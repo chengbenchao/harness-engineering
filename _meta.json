@@ -1,0 +1,9 @@
+{
+  "name": "harness-engineering",
+  "displayName": "天工引擎 · Harness Engineering",
+  "version": "1.0.0",
+  "summary": "天工引擎 (Harness Engineering) — 把 AI 从不可控的魔法变成可工程化的生产要素。四层架构：Prompt → Context → Agent → Harness，基于 OpenAI 百万代码库生产级实践",
+  "author": "OpenAI + OpenClaw",
+  "category": "architecture",
+  "tags": ["ai-agent", "harness", "engineering", "architecture", "codex", "autonomous", "天工引擎"]
+}
